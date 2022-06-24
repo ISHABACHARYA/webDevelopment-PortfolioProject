@@ -5,6 +5,7 @@
     <meta author="Ishab" description="Ishab portfolio" />
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./navBar.css" type="text/css" />
+    <link rel="stylesheet" href="./portfolioDetail.css" type="text/css" />
   </head>
   <body id="'body">
     <nav id="nav-bar">
@@ -19,33 +20,41 @@
       <input id="nav-button" value="Let's chat" type="button" />
     </nav>
 
-    <div style="display: flex; flex-direction: row">
-      <div>
-        <h1>Hi! I am Ishab Acharya</h1>
-        <p>
+    <div
+      style="display: flex; flex-direction: row; flex: 1"
+      id="content-container"
+    >
+      <div class="portfolio-detail-container">
+        <h1 class="intro-text">Hi! I am Ishab Acharya</h1>
+        <p class="experience-text">
           Designing and developing mobile applications on FE and BE for over 5
           years.
         </p>
-        <input type="button" value="Hire me" />
-        <input type="button" value="Projects" />
+        <input type="button" value="Hire me" id="hire-me-button" />
+        <input type="button" value="Projects" id="project-button" />
 
-        <div style="display: flex; flex-direction: row">
-          <div>
-            <h2>Clients</h2>
-            <p>20+ clientsall over the world</p>
+        <div
+          style="display: flex; flex-direction: row"
+          class="project-container"
+        >
+          <div class="indivProjectContainer">
+            <h2 class="projectTitleText">Clients</h2>
+            <p class="projectDescText">20+ clientsall over the world</p>
           </div>
-          <div>
-            <h2>Projects</h2>
-            <p>10+ projects in Appstore and playstore</p>
+          <div class="indivProjectContainer">
+            <h2 class="projectTitleText">Projects</h2>
+            <p class="projectDescText">
+              10+ projects in Appstore and playstore
+            </p>
           </div>
-          <div>
-            <h2>Contact</h2>
-            <p>Discord: redmenIshab#8066</p>
+          <div class="indivProjectContainer">
+            <h2 class="projectTitleText">Contact</h2>
+            <p class="projectDescText">Discord: redmenIshab#8066</p>
           </div>
         </div>
       </div>
-      <div>
-        <p>Create your site in Figma and xd.</p>
+      <div style="flex: 1" id="profile-photo-container">
+        <p class="profile-photo-text">Create your site in Figma and xd.</p>
       </div>
     </div>
 
