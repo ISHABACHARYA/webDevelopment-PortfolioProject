@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./navBar.css" type="text/css" />
     <link rel="stylesheet" href="./portfolioDetail.css" type="text/css" />
+    <link rel="stylesheet" href="./footer.css" type="text/css" />
   </head>
   <body id="'body">
     <nav id="nav-bar">
@@ -21,7 +22,7 @@
     </nav>
 
     <div
-      style="display: flex; flex-direction: row; flex: 1"
+      style="display: flex; flex-direction: row; align-self: stretch"
       id="content-container"
     >
       <div class="portfolio-detail-container">
@@ -58,23 +59,23 @@
       </div>
     </div>
 
-    <footer style="display: flex; flex-direction: row">
-      <div>
-        <p>Project Statistics 2022</p>
-        <button>Know More</button>
+    <footer id="footer-container">
+      <div class="footer-left-container">
+        <p class="project-title">Project Statistics 2022</p>
+        <button class="small-button">Know More</button>
       </div>
-      <div>
-        <div>
-          <span>website design </span>
-          <span> 10+</span>
+      <div class="footer-stats-container">
+        <div class="footer-stats-title-container">
+          <span class="footer-stats-title">website design </span>
+          <span class="footer-stats-num"> 10+</span>
         </div>
-        <div>
-          <span>Mobile Apps</span>
-          <span> 10+</span>
+        <div class="footer-stats-title-container">
+          <span class="footer-stats-title">Mobile Apps</span>
+          <span class="footer-stats-num"> 10+</span>
         </div>
-        <div>
-          <span>Full stack</span>
-          <span> 10+</span>
+        <div class="footer-stats-title-container">
+          <span class="footer-stats-title">Full stack</span>
+          <span class="footer-stats-num"> 10+</span>
         </div>
       </div>
     </footer>

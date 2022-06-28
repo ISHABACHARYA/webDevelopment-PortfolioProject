@@ -1,0 +1,42 @@
+#footer-container {
+  flex-direction: row;
+  display: flex;
+  padding: 3em;
+  background-color: darkslategrey;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-left-container {
+  flex: 1;
+}
+.project-title {
+  font-size: 2em;
+  color: white;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial;
+}
+.small-button {
+  padding: 10px 10px;
+  border: 2px;
+  height: 40px;
+  width: 100px;
+  background-color: yellow;
+}
+.footer-stats-container {
+  flex: 1;
+}
+.footer-stats-title-container {
+  border-bottom-width: 10px;
+  border-color: white;
+  padding: 5px 20px;
+}
+.footer-stats-title {
+  font-size: 1em;
+  color: white;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial;
+}
+.footer-stats-num {
+  font-size: 1em;
+  color: white;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial;
+  padding-left: 2em;
+}
