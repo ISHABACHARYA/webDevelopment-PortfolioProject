@@ -9,9 +9,6 @@
   border-bottom-width: 10px;
   border-bottom-color: gray;
   position: sticky;
-  top: 0;
-  background: white;
-  flex-wrap: ;
 }
 .nav-title {
   font-size: 2em;

@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+}
+
+/* #body {
+  background-image: url("./Group\ 221.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 250px 150px;
+  background-color: #fffafa;
+  padding: 10px 250px;
+} */
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  float: center;
+  padding: 10px 0px;
+  position: sticky;
+  top: 10px;
+}
+
+#nav-bar-title {
+  flex-grow: 1;
+  font-weight: bold;
+  font-size: 30px;
+}
+#nav-box2 {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: row;
+}
+.nav-anchor {
+  margin-right: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.nav-anchor:hover {
+  color: #ff4c60;
+}
+.nav-anchor:first-child {
+  color: #ff4c60;
+}
+.nav-img {
+  padding: 0px 5px;
+}
+.nav-anchor-text {
+  font-size: 1em;
+  font-weight: normal;
+  font-family: Poppins, "Helvetica Neue", Helvetica;
+  align-self: center;
+}
+
+.container {
+  float: left;
+  display: block;
+}
+.intro-container {
+  float: left;
+  padding: 100px 0px;
+  width: 375px;
+}
+.hello-text {
+  font-size: 35px;
+  font-weight: bold;
+}
+.hello-red-text {
+  color: #ff4c60;
+  padding-top: 0px;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-container {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.statsimg {
+  height: 300px;
+  width: 350px;
+}
+.skill-container {
+  flex: 1;
+}
+.skill-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+.skill-desc {
+  font-size: 12px;
+  font-weight: light;
+}
+
+.icons-container {
+  padding: 35px 30px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.title-per-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-text {
+  font-size: 12px;
+  font-weight: light;
+  margin: 0px;
+}
+
+.per-text {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+}
+.download-text {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+  color: red;
+}
